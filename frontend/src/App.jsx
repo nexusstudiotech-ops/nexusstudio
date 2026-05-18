@@ -9,7 +9,6 @@ import WhatsAppButton from './components/WhatsAppButton';
 import ScrollToTop from './components/ScrollToTop';
 import { ScrollProgress } from './components/ScrollProgress';
 import BackToTop from './components/BackToTop';
-import { CustomCursor } from './components/CustomCursor';
 
 // Lazy Loaded Pages (T2 - Code Splitting)
 const Home = lazy(() => import('./pages/Home'));
@@ -47,7 +46,6 @@ function App() {
   return (
     <Router>
       {/* 1. Global Performance/UX upgrades */}
-      <CustomCursor />
       <ScrollProgress />
       <ScrollToTop />
       
