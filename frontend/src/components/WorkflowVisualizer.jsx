@@ -5,7 +5,7 @@ export function WorkflowVisualizer() {
   const [arrowsVisible, setArrowsVisible] = useState([false, false])
 
   useEffect(() => {
-    let timer1, timer2, timer3, timer4, resetTimer
+    let timer1, timer2, timer3, resetTimer
 
     const runSequence = () => {
       // Reset state

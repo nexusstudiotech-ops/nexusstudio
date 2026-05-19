@@ -36,7 +36,7 @@ const Contact = () => {
       } else {
         setStatus({ submitting: false, message: data.error || 'Something went wrong.', error: true });
       }
-    } catch (error) {
+    } catch {
       setStatus({ submitting: false, message: 'Failed to connect to the server.', error: true });
     }
   };

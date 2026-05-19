@@ -1,6 +1,6 @@
 import React from 'react'
 
-export function BrowserMockup({ url, name, niche, desc, theme, children }) {
+export function BrowserMockup({ url, name, niche, desc, children }) {
   return (
     <div className="relative overflow-hidden rounded-xl border border-white/5 bg-bg-surface transition-all duration-400 group/mockup hover:-translate-y-[7px] hover:border-glow-cyan/40 hover:shadow-[0_24px_60px_rgba(0,0,0,0.5)]">
       

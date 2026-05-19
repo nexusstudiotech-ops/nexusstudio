@@ -1,7 +1,7 @@
 import React from 'react';
 
 const WhatsAppButton = () => {
-  const phoneNumber = "919999999999"; // Replace with client's actual contact number
+  const phoneNumber = "9177122356"; // User's actual contact number
   const message = encodeURIComponent("Hello Nexus Studio, I'm interested in deploying a high-performance web architecture or automation project!");
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
 
